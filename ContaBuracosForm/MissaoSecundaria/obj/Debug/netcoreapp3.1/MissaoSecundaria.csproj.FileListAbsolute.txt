@@ -1,0 +1,15 @@
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\bin\Debug\netcoreapp3.1\MissaoSecundaria.exe
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\bin\Debug\netcoreapp3.1\MissaoSecundaria.deps.json
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\bin\Debug\netcoreapp3.1\MissaoSecundaria.runtimeconfig.json
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\bin\Debug\netcoreapp3.1\MissaoSecundaria.runtimeconfig.dev.json
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\bin\Debug\netcoreapp3.1\MissaoSecundaria.dll
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\bin\Debug\netcoreapp3.1\MissaoSecundaria.pdb
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.csproj.AssemblyReference.cache
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.Inicio.resources
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.csproj.GenerateResource.cache
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.AssemblyInfoInputs.cache
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.AssemblyInfo.cs
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.csproj.CoreCompileInputs.cache
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.dll
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.pdb
+C:\Users\theag\source\repos\MissaoSecundaria\MissaoSecundaria\obj\Debug\netcoreapp3.1\MissaoSecundaria.genruntimeconfig.cache

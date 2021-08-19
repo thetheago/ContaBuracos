@@ -1,0 +1,7 @@
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\bin\Debug\ContaBuracos.exe.config
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\bin\Debug\ContaBuracos.exe
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\bin\Debug\ContaBuracos.pdb
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\obj\Debug\ContaBuracos.csproj.AssemblyReference.cache
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\obj\Debug\ContaBuracos.csproj.CoreCompileInputs.cache
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\obj\Debug\ContaBuracos.exe
+C:\Users\theag\source\repos\ContaBuracos\ContaBuracos\obj\Debug\ContaBuracos.pdb
