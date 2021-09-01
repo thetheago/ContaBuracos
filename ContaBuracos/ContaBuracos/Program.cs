@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,46 +29,52 @@ namespace ContaBuracos
                 contBuracos += TestarArray(letra);
 
             }
-
-            if (contBuracos > 1 && totPalavras > 1) //Caso tenha mais de um buraco e mais de uma palavra
+            if(contBuracos > 1)//Caso tenha mais de um buraco
             {
-                Console.WriteLine("Seu texto há " + textoLetras + " letras");
-                Console.WriteLine("Seu texto há " + totPalavras + " palavras");
-                Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buracos.");
+                if(totPalavras > 1)//Caso tenha mais de um buraco e mais de uma palavra
+                {
+                    Console.WriteLine("Seu texto há " + textoLetras + " letras");
+                    Console.WriteLine("Seu texto há " + totPalavras + " palavras");
+                    Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buracos.");
+                }
+                else if(totPalavras == 1)//Caso tenha mais de um buraco mas apenas uma palavra
+                {
+                    Console.WriteLine("Seu texto há " + textoLetras + " letras");
+                    Console.WriteLine("Seu texto há " + totPalavras + " palavra");
+                    Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buracos.");
+                }
             }
-            else if (contBuracos > 1 && totPalavras == 1) //Caso tenha mais de um buraco mas apenas uma palavra
+            else if (contBuracos == 1) //Caso tenha um baraco 
             {
-                Console.WriteLine("Seu texto há " + textoLetras + " letras");
-                Console.WriteLine("Seu texto há " + totPalavras + " palavra");
-                Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buracos.");
-            }
-            else if (contBuracos == 1 && totPalavras > 1) //Caso tenha um baraco e mais de uma palavra
-            {
-                Console.WriteLine("Seu texto há " + textoLetras + " letras");
-                Console.WriteLine("Seu texto há " + totPalavras + " palavras");
-                Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buraco.");
-            }
-            else if (contBuracos == 1 && totPalavras == 1) //Caso tenha um buraco e uma palavra
-            {
-                Console.WriteLine("Seu texto há " + textoLetras + " letras");
-                Console.WriteLine("Seu texto há " + totPalavras + " palavra");
-                Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buraco.");
+                if(totPalavras > 1) //Caso tenha um baraco e mais de uma palavra
+                {
+                    Console.WriteLine("Seu texto há " + textoLetras + " letras");
+                    Console.WriteLine("Seu texto há " + totPalavras + " palavras");
+                    Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buraco.");
+                }
+                else if(totPalavras == 1)
+                {
+                    Console.WriteLine("Seu texto há " + textoLetras + " letras");
+                    Console.WriteLine("Seu texto há " + totPalavras + " palavra");
+                    Console.WriteLine("Nas letras do seu texto há : " + contBuracos + " buraco.");
+                }
             }
             else if (textoLetras == 0) //Caso não digite nada
             {
                 Console.WriteLine("Você não digitou nada!");
-            }
-            else if (contBuracos == 0 && totPalavras == 1) //Caso não tenha buracos e uma palavra
-            {
-                Console.WriteLine("Seu texto há " + textoLetras + " letras");
-                Console.WriteLine("Seu texto há " + totPalavras + " palavra");
-                Console.WriteLine("Nas letras do seu texto não há buracos.");
-            }
-            else if (contBuracos == 0 && totPalavras > 1) //Caso não tenha buracos e mais de uma palavra
-            {
-                Console.WriteLine("Seu texto há " + textoLetras + " letras");
-                Console.WriteLine("Seu texto há " + totPalavras + " palavras");
-                Console.WriteLine("Nas letras do seu texto não há buracos.");
+
+                if(totPalavras == 1)//Caso não tenha buracos e uma palavra
+                {
+                    Console.WriteLine("Seu texto há " + textoLetras + " letras");
+                    Console.WriteLine("Seu texto há " + totPalavras + " palavra");
+                    Console.WriteLine("Nas letras do seu texto não há buracos.");
+                }
+                else if (totPalavras > 1)//Caso não tenha buracos e mais de uma palavra
+                {
+                    Console.WriteLine("Seu texto há " + textoLetras + " letras");
+                    Console.WriteLine("Seu texto há " + totPalavras + " palavras");
+                    Console.WriteLine("Nas letras do seu texto não há buracos.");
+                }
             }
             else //Caso não tenha nenhum buraco
             {
